@@ -1,2 +1,8 @@
 <h1>{{title}}</h1>
-<my-heroes></my-heroes>
+<!-- the 'nav' are the custom elements to attach CSS styles to -->
+<nav>
+  <!-- The routerLink directive is supplied by the RouterModule -->
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
